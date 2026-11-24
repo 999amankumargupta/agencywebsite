@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GrowFast | Digital Marketing Agency</title>
+  <style>
+    /* Remove spacing from all elements */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: Arial, sans-serif; color: #475569; line-height: 1.6; }
+
+  
+    header { background: #0f172a; padding: 15px 40px; position: sticky; top: 0;
+            display: flex;  justify-content: space-between; align-items: center;  }
+    .logo { color: white; font-size: 24px; font-weight: bold; }
+    .logo span { color: #f97316; }
+    nav a { color: #cbd5e1;  margin-left: 20px; }
+    nav a:hover { color: #f97316; }
+
+
+    .hero { background: linear-gradient(135deg, #0f172a, #1d4ed8); color: white;
+            text-align: center; padding: 100px 20px; }
+    .hero h1 { font-size: 40px; margin-bottom: 15px; }
+    .hero h1 span { color: #f97316; }
+    .hero p { margin-bottom: 25px; color: #cbd5e1; }
+
+    .btn { display: inline-block; padding: 12px 28px; border-radius: 6px; margin: 5px;
+           text-decoration: none; color: white; border: 2px solid white;  font-size: 15px; }
+    .orange { background: #f97316; border-color: #f97316; }
+
+
+    .stats { display: flex; justify-content: space-around;  background: white;
+             max-width: 850px; margin: -40px auto 0; padding: 20px; border-radius: 10px;
+             box-shadow: 0 5px 20px rgba(0,0,0,0.15); text-align: center; }
+    .stats h3 { font-size: 28px; color: #2563eb; }
+
+    /* ----- Sections ----- */
+    section { padding: 70px 20px; text-align: center; }
+    section h2 { font-size: 32px; color: #0f172a; margin-bottom: 10px; }
+    section > p { margin-bottom: 35px; }
+    .grey { background: #f8fafc; }
+    .boxes { display: flex;  justify-content: center; gap: 25px; }
+
+    .card { background: white; padding: 25px; width: 260px; border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    
+    .card h3 { color: #0f172a; margin-bottom: 8px; }
+    .icon { font-size: 40px; }
+    .popular { border: 2px solid #f97316; }
+
+
+    .price { font-size: 30px; font-weight: bold; color: #2563eb; margin: 10px 0; }
+    .card ul {  margin: 15px 0; }
+    .card li { padding: 5px 0; border-bottom: 1px solid #e2e8f0; }
+
+    
+    .top { background: #2563eb; color: white; padding: 18px 25px; margin: -25px -25px 15px;
+           border-radius: 10px 10px 0 0; }
+    .top h3 { color: white; margin: 0; }
+    .big { font-size: 34px; font-weight: bold; color: #f97316; }
+
+
+    .stars { color: #facc15; font-size: 20px; }
+    .card i { display: block; margin: 10px 0 15px; }
+
+    
+    .contact-box { display: flex;  justify-content: center; gap: 30px; text-align: left; }
+    .info { background: #0f172a; color: #cbd5e1; padding: 30px; border-radius: 10px; width: 300px; }
+    .info h3 { color: white; margin-bottom: 15px; }
+    .info p { margin-bottom: 12px; }
+    form { background: white; padding: 30px; border-radius: 10px; width: 420px;
+           box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    input, textarea { width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #cbd5e1; border-radius: 6px; }
+
+    footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 20px; }
+  </style>
+</head>
+
+<body>
+
+  
+
+  <header>
+    <div class="logo">Grow<span>Fast</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#results">Results</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>Grow Your Business <span>Online</span></h1>
+    <p>We bring more traffic, leads and sales using SEO, social media and ads.</p>
+    <a href="#contact" class="btn orange">Get a Free Quote</a>
+    <a href="#services" class="btn">Our Services</a>
+  </div>
+
+
+  <div class="stats">
+    <div><h3>200+</h3><p>Happy Clients</p></div>
+    <div><h3>500+</h3><p>Campaigns</p></div>
+    <div><h3>5 Years</h3><p>Experience</p></div>
+    <div><h3>98%</h3><p>Satisfaction</p></div>
+  </div>
+
+  
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Everything you need to grow your brand.</p>
+    <div class="boxes">
+      <div class="card"><div class="icon">🔍</div><h3>SEO</h3><p>Rank higher on Google.</p></div>
+      <div class="card"><div class="icon">📱</div><h3>Social Media</h3><p>Grow followers and engagement.</p></div>
+      <div class="card"><div class="icon">✉️</div><h3>Email Marketing</h3><p>Reach customers directly.</p></div>
+      <div class="card"><div class="icon">🎯</div><h3>Paid Ads</h3><p>Get quick results with ads.</p></div>
+    </div>
+  </section>
+
+  
+  <section id="pricing" class="grey">
+    <h2>Pricing Plans</h2>
+    <p>Simple plans for every business.</p>
+    <div class="boxes">
+      <div class="card">
+        <h3>Basic</h3>
+        <div class="price">₹5,000 / month</div>
+        <ul><li>SEO Optimization</li><li>Monthly Report</li><li>Email Support</li></ul>
+        <a href="#contact" class="btn orange">Choose Plan</a>
+      </div>
+      <div class="card popular">
+        <h3>Standard (Popular)</h3>
+        <div class="price">₹10,000 / month</div>
+        <ul><li>SEO + Social Media</li><li>Weekly Report</li><li>Phone Support</li></ul>
+        <a href="#contact" class="btn orange">Choose Plan</a>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <div class="price">₹20,000 / month</div>
+        <ul><li>All Services</li><li>Daily Report</li><li>Dedicated Manager</li></ul>
+        <a href="#contact" class="btn orange">Choose Plan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Previous Results -->
+  <section id="results">
+    <h2>Our Previous Results</h2>
+    <p>Real growth we delivered for our clients.</p>
+    <div class="boxes">
+      <div class="card">
+        <div class="top"><h3>Urban Bites Cafe</h3>Restaurant | 6 months</div>
+        <div class="big">+180%</div>
+        <p>Website traffic increased with SEO. Online bookings doubled.</p>
+      </div>
+      <div class="card">
+        <div class="top"><h3>StyleNest Fashion</h3>E-commerce | 4 months</div>
+        <div class="big">3.5x ROI</div>
+        <p>Social media ads brought more orders at lower cost.</p>
+      </div>
+      <div class="card">
+        <div class="top"><h3>BrightPath Academy</h3>Education | 5 months</div>
+        <div class="big">+250 Leads</div>
+        <p>Email campaigns brought 250 new enquiries every month.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="reviews" class="grey">
+    <h2>What Our Clients Say</h2>
+    <p>Trusted by business owners across India.</p>
+    <div class="boxes">
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <i>"Our traffic almost tripled in six months. Very professional team."</i>
+        <h3>Rohit Sharma</h3><p>Owner, Urban Bites Cafe</p>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <i>"Their ad campaigns gave us great returns. Reports are easy to understand."</i>
+        <h3>Priya Nair</h3><p>Founder, StyleNest Fashion</p>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★☆</div>
+        <i>"We got many new student enquiries. Highly recommended."</i>
+        <h3>Amit Kulkarni</h3><p>Director, BrightPath Academy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Tell us about your business and we will get back to you.</p>
+
+    <div class="contact-box">
+      <!-- Left: company details -->
+      <div class="info">
+        <h3>Get In Touch</h3>
+        <p>📍 Bengaluru, Karnataka</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ hello@growfast.com</p>
+        <p>🕒 Mon - Sat, 9 AM to 6 PM</p>
+      </div>
+
+      <!-- Right: form (checked by JavaScript) -->
+      <form onsubmit="return validate()">
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Your name">
+
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Your email">
+
+        <label>Phone Number</label>
+        <input type="text" id="mobile" placeholder="10 digit mobile number">
+
+        <label>Message</label>
+        <textarea id="message" rows="4" placeholder="Your message"></textarea>
+
+        <button type="submit" class="btn orange">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 GrowFast Digital Marketing. All rights reserved.</p>
+  </footer>
+
+ 
+<script>
+function validate() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let mobile = document.getElementById("mobile").value;
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let mobilePattern = /^[0-9]{10}$/;
+
+    if (name.trim() == "") {
+        alert("Enter name");
+        return false;
+    }
+
+    if (!mobilePattern.test(mobile)) {
+        alert("Invalid mobile number");
+        return false;
+    }
+
+    if (!emailPattern.test(email)) {
+        alert("Invalid email");
+        return false;
+    }
+
+    alert("Form submitted successfully");
+    return false;
+}
+</script>
+
+</body>
+</html>
